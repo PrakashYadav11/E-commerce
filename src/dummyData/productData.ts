@@ -1,0 +1,58 @@
+import { Images } from "../assets/Images";
+
+export const productData = [
+    {
+        id:'1',
+        name:"Product Name",
+        actualPrice:220.00,
+        discountPrice:180.00,
+        quantity:"200 Gram",
+        description:"Chocolate cookies are rich, soft, and loaded with delicious chocolate flavour.",
+        imageOutOfStock:Images.outofstock,
+    },
+    {
+        id:'2',
+        name:"Product Name",
+        actualPrice:50.00,
+        discountPrice:25.00,
+        quantity:"2 Piece",
+        description:"A powerhouse of protein and essential nutrients, eggs support muscle growth, brain function, and overall health.",
+        imageOutOfStock:Images.instock,
+    },
+    {
+        id:'3',
+        name:"Product Name",
+        actualPrice:300.00,
+        discountPrice:250.00,
+        quantity:"100 Gram",
+        description:"Rich in antioxidants and minerals, dark chocolate offers a deep, bittersweet flavor and promotes heart health.",
+        imageOutOfStock:Images.instock,
+    },
+    {
+        id:'4',
+        name:"Product Name",
+        actualPrice:630.00,
+        discountPrice:560.00,
+        quantity:"1 Kg Pack",
+        description:"Rich in antioxidants and minerals, dark chocolate offers a deep, bittersweet flavor and promotes heart health.",
+        imageOutOfStock:Images.instock,
+    },
+    {
+        id:'5',
+        name:"Product Name",
+        actualPrice:1350.00,
+        discountPrice:1050.00,
+        quantity:"1 Litre Bottle",
+        description:"A powerhouse of protein and essential nutrients, eggs support muscle growth, brain function, and overall health.",
+        imageOutOfStock:Images.instock,
+    },
+    {
+        id:'6',
+        name:"Product Name",
+        actualPrice:300.00,
+        discountPrice:280.00,
+        quantity:"500 Gram",
+        description:"A powerhouse of protein and essential nutrients, eggs support muscle growth, brain function, and overall health.",
+        imageOutOfStock:Images.instock,
+    },
+]
