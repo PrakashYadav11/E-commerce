@@ -34,7 +34,7 @@ const SignupTow = ({navigation}) => {
       />
     </View>
     <View style={styles.btnStyle}>
-      <CustomButton label="Next" onPress={()=>navigation.navigate(NavigationRoutes.bottom)}/>
+      <CustomButton label="Next" onPress={()=>navigation.navigate(NavigationRoutes.signupthree)}/>
     </View>
   </View>
   )

@@ -4,12 +4,13 @@ import {
   StyleSheet,
 } from 'react-native';
 import MainNavigation from './src/navigation/MainNavigation';
+import CustomeAccountInput from './src/components/CustomeAccountInput';
 
 
 function App(): React.JSX.Element {
   return (
     <>
-    <MainNavigation />
+    <MainNavigation /> 
     </>
   );
 }

@@ -2,9 +2,7 @@ import {
   Button,
   Dimensions,
   Image,
-  StyleSheet,
   Text,
-  Touchable,
   TouchableOpacity,
   View,
 } from 'react-native';
@@ -70,7 +68,7 @@ const Login = () => {
       </View>
 
       <View style={styles.btmBtn}>
-        <TouchableOpacity style={styles.btnStyle}>
+        <TouchableOpacity style={styles.btnStyle} onPress={()=>navigation.navigate(NavigationRoutes.otpone)}>
           <View style={{flexDirection: 'row', alignItems: 'center'}}>
             <Image source={Images.phone} style={styles.img} />
             <Text style={styles.btnText}>Email OTP</Text>

@@ -12,5 +12,13 @@ export const Strings={
     phone:"Phone Numbar",
     address:"Address",
     enterphone:"Entar your phone numbar",
-    enteraddress:"Enter your business address"
+    enteraddress:"Enter your business address",
+    accname:"Account Holder Name",
+    enteraccname:"Enter Account Holder Name",
+    accnum:"Account Number",
+    enteraccnum:"Enter Account Number",
+    ifsc:"IFSC Code",
+    enterifsc:"Enter IFSC Coder (for bank transfer)",
+    additional:"Additional Details",
+    enteradditional:"Enter Payment Details(e.g. IBAN , PayPal)",
 }

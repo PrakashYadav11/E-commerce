@@ -2,7 +2,7 @@ import {FlatList, ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import CustomSearchBar from '../../components/CustomSearchBar';
 import CustomeInfo from '../../components/CustomInfo';
-import CustomeOrder from '../../components/CustomeOrder';
+import CustomeOrder from '../../components/CustomOrder';
 import {orderData} from '../../dummyData/orderData';
 import styles from './style';
 

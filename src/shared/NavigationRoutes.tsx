@@ -8,4 +8,9 @@ export const NavigationRoutes = {
     login:'Login',
     signup:'Signup',
     signuptow:'SignupTow',
+    signupthree:'SignupThree',
+    signupsuccess:'SignupSuccess',
+    updatebanking:'UpdateBankingInformation',
+    otpone:'OtpOne',
+    otptow:'OtpTow',
 }

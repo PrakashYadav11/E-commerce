@@ -21,4 +21,6 @@ export const Images = {
     logout:require('./icons/logout.png'),
     signupsuccess:require('./icons/signupSuccess.png'),
     upload:require('./icons/upload.png'),
+    lock:require('./icons/lock.png'),
+    successgroup:require('./icons/successgroup.png'),
 }
