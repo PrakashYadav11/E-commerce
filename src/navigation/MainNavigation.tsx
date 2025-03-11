@@ -12,6 +12,7 @@ import SignupSuccess from '../screens/auth/SignupSuccess';
 import UpdateBankingInformation from '../screens/UpdateBankingInformation';
 import OtpOne from '../screens/Otp/OtpOne';
 import OtpTow from '../screens/Otp/OtpTow';
+import NewProduct from '../screens/NewProject\'/Index';
 
 const Stack = createNativeStackNavigator();
 
@@ -30,6 +31,7 @@ export default function MainNavigation() {
         <Stack.Screen name={NavigationRoutes.signupthree} component={SignupThree}/>
         <Stack.Screen name={NavigationRoutes.signupsuccess} component={SignupSuccess}/>
         <Stack.Screen name={NavigationRoutes.updatebanking} component={UpdateBankingInformation}/>
+        <Stack.Screen name={NavigationRoutes.NewProduct} component={NewProduct}/>
         <Stack.Screen
           name={NavigationRoutes.bottom}
           component={BootamTabNavigation}

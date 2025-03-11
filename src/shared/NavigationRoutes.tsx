@@ -13,4 +13,7 @@ export const NavigationRoutes = {
     updatebanking:'UpdateBankingInformation',
     otpone:'OtpOne',
     otptow:'OtpTow',
+    Search:'Search',
+    HomeStack:'HomeStack',
+    NewProduct:'NewProduct'
 }

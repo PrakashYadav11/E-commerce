@@ -17,15 +17,16 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {Images} from '../../assets/Images';
 import styles from './style';
 import CustomSearchBar from '../../components/CustomSearchBar';
+import { NavigationRoutes } from '../../shared/NavigationRoutes';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.search}>
         <CustomSearchBar
           showBackButton={false}
           showNotificationIcon={true}
-          onPress={() => {}}
+          onPress={()=>navigation.navigate(NavigationRoutes.Search)}
           showSearchBar={true}
         />
       </View>
@@ -91,7 +92,7 @@ const Home = () => {
               </View>
             </View>
           </View>
-          <TouchableOpacity style={styles.box4}>
+          <TouchableOpacity style={styles.box4} onPress={()=>navigation.navigate(NavigationRoutes.NewProduct)}>
             <AntDesign name="plus" size={24} style={{color: 'black'}} />
             <Text style={styles.varification}>Add New Products</Text>
           </TouchableOpacity>

@@ -21,6 +21,7 @@ interface inputTypes {
   showNotificationIcon: boolean;
   onPress: any;
   showSearchBar: boolean;
+  onnotPress:any
 }
 
 const {width, height} = Dimensions.get('window');
@@ -30,6 +31,7 @@ const CustomSearchBar = ({
   showNotificationIcon = true,
   onPress,
   showSearchBar = true,
+  onnotPress
 }: inputTypes) => {
   const navigation = useNavigation();
   return (
@@ -70,11 +72,12 @@ const CustomSearchBar = ({
               style={styles.searchStl}
               placeholder="Search"
               placeholderTextColor="grey"
+              onPress={onPress}
             />
           </View>
         )}
         {showNotificationIcon && (
-          <TouchableOpacity style={styles.notification} onPress={onPress}>
+          <TouchableOpacity style={styles.notification} onPress={onnotPress}>
             <Ionicons name="notifications-outline" size={30} />
           </TouchableOpacity>
         )}
