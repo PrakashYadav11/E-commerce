@@ -5,12 +5,12 @@ import { heightPixel, widthPixel } from "../../Utils/ResponsiveDimensions";
 const {width, height} = Dimensions.get('window');
 
 export const style = StyleSheet.create({
-    container:{
+    containe:{
         flex:1,
         backgroundColor:'white',
         // marginBottom: 60,
     },
-    search:{
+    searc:{
         marginTop: height * 0.02,
     },
     totalProduct:{
@@ -19,7 +19,7 @@ export const style = StyleSheet.create({
         margin:20,
         
     },
-    txt:{
+    tx:{
         fontSize:20,
         color:'black',
         fontFamily:'Roboto',

@@ -53,13 +53,13 @@ export const style = StyleSheet.create({
     borderRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
-    marginRight:widthPixel(15)
+    marginRight:widthPixel(15),
   },
   plus2:{
     fontSize: 20,
     fontWeight: 'bold',
     color: 'black',
-    bottom:heightPixel(10)
+    bottom:heightPixel(10),
   },
   inputTxt: {
     height: heightPixel(61),

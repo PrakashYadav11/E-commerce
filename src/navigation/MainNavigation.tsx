@@ -32,6 +32,7 @@ export default function MainNavigation() {
         <Stack.Screen name={NavigationRoutes.signupsuccess} component={SignupSuccess}/>
         <Stack.Screen name={NavigationRoutes.updatebanking} component={UpdateBankingInformation}/>
         <Stack.Screen name={NavigationRoutes.NewProduct} component={NewProduct}/>
+        
         <Stack.Screen
           name={NavigationRoutes.bottom}
           component={BootamTabNavigation}
