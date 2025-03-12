@@ -3,9 +3,8 @@ import Colors from '../../shared/theme/colors';
 import {heightPixel, widthPixel} from '../../Utils/ResponsiveDimensions';
 
 const {width, height} = Dimensions.get('window');
-const scaleFont = (size) => size * (width / 375);
-const scaleSize = (size) => size * (width / 375);
-
+const scaleFont = (size: any) => size * (width / 375);
+const scaleSize = (size: any) => size * (width / 375);
 
 export const style = StyleSheet.create({
   container: {
@@ -108,7 +107,7 @@ export const style = StyleSheet.create({
   modalContainer: {
     flex: 1,
     justifyContent: "flex-end",
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent background
+    backgroundColor: "rgba(0, 0, 0, 0.5)", 
   },
   modalBox: {
     height: 328,
