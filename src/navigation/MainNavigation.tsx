@@ -12,7 +12,7 @@ import SignupSuccess from '../screens/auth/SignupSuccess';
 import UpdateBankingInformation from '../screens/UpdateBankingInformation';
 import OtpOne from '../screens/Otp/OtpOne';
 import OtpTow from '../screens/Otp/OtpTow';
-import NewProduct from '../screens/NewProject\'/Index';
+import NewProduct from '../screens/AddNewProduct/Index';
 
 const Stack = createNativeStackNavigator();
 

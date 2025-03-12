@@ -21,15 +21,14 @@ const NewProduct = ({navigation}) => {
     {label: 'Toys', value: 'toys'},
   ];
 
-  // Auto-close modal & navigate after 10 sec
   useEffect(() => {
     if (modalVisible) {
       const timer = setTimeout(() => {
         setModalVisible(false);
         navigation.navigate(NavigationRoutes.bottom);
-      }, 1000); // 10 seconds delay
+      }, 1000); 
 
-      return () => clearTimeout(timer); // Clear timer if component unmounts
+      return () => clearTimeout(timer); 
     }
   }, [modalVisible, navigation]);
   return (

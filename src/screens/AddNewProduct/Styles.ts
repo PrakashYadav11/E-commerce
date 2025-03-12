@@ -22,7 +22,7 @@ export const style = StyleSheet.create({
     color: 'black',
     fontFamily: 'Roboto',
     fontWeight: '700',
-    fontSize: 24,
+    fontSize: 22,
   },
   containe: {
     alignItems: 'flex-start',
@@ -47,8 +47,8 @@ export const style = StyleSheet.create({
     color: 'black',
   },
   imageStyle: {
-    height: heightPixel(100),
-    width: widthPixel(100),
+    height: heightPixel(90),
+    width: widthPixel(90),
     borderWidth: 1,
     marginTop: heightPixel(20),
     borderRadius: 10,
@@ -100,7 +100,7 @@ export const style = StyleSheet.create({
     borderRadius:10
   },
   btnTxt:{
-    fontSize:24,
+    fontSize:19,
     fontWeight:'700',
     fontFamily:'Inter',
     color:Colors.white,
