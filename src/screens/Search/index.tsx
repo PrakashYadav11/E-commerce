@@ -14,15 +14,6 @@ const Search = () => {
 
   return (
     <View style={style.container}>
-      <View style={style.search}>
-        <CustomSearchBar
-          showBackButton={false}
-          showSearchBar={true}
-          showNotificationIcon={true}
-          // onPress={()=>setIsSearching(true)}
-        />
-      </View>
-
       <View style={style.totalProduct}>
         <View style={style.resultBox}>
           <View>
